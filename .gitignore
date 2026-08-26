@@ -1,0 +1,31 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Model Checkpoints & Large Binary Weights
+models/checkpoints/
+models/best_model/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Data Cache
+data/raw/*
+data/processed/*
+!.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
